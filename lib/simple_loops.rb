@@ -15,7 +15,9 @@ end
 
 
 def return_string_array(array)
+    new_array = []
     while i < array.length do
-      i.to_s
+      new_array.push(i.to_s)
     end
+    new_array
 end
